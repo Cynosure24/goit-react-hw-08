@@ -22,7 +22,7 @@ export const RegisterForm = () => {
       .matches('^(?!.*@[^,]*,)', 'Invalid email')
       .required('Email is required!'),
     password: Yup.string()
-      .required('No password provided.')
+      .required('No password provided!')
       .min(8, 'Password is too short.')
       .matches('[a-zA-Z]', 'Latin letters only.'),
   });
