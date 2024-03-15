@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.text {
+  font-size: 34px;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.link {
+  display: block;
+  color: rgb(160, 184, 161);
+}
+
+.link:hover,
+.link:focus {
+  color: #031401;
+  transition: color 150ms ease-in-out;
+}
